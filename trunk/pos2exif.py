@@ -631,7 +631,7 @@ def do_listsync():
    pass
 
 if __name__ == "__main__":
-   conf = config(configfilename,"pos2exit",1,defaults = {"gpstimezone": None},globelements = {"gpstimezone": int})
+   conf = config(configfilename,"pos2exif",1,defaults = {"gpstimezone": None},globelements = {"gpstimezone": int})
 
    cmdline = sys.argv
 
